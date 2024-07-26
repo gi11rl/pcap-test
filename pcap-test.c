@@ -47,5 +47,7 @@ int main(int argc, char* argv[]) {
 		printf("%u bytes captured\n", header->caplen);
 	}
 
+	printf("1");
+
 	pcap_close(pcap);
 }
